@@ -1,1 +1,27 @@
-
+1. B
+2. C
+3. B
+4. D
+5. C
+6. B
+7. B
+8. A
+9. A, B
+10. A, B
+11. A Neural Network without Activation function would simply be a Linear regression Model, which has limited power and does not perform good most of the times.
+12. Forward propagation refers to the calculation and storage of intermediate variables for a neural network in order from the input layer to the output layer. We now work 
+     step-by-step through the mechanics of a neural network with one hidden layer. 
+                                                                       z = W x
+    Backpropagation refers to the method of calculating the gradient of neural network parameters. In short, the method traverses the network in reverse order, from the output
+     to the input layer, according to the chain rule from calculus. 
+13. In Batch Gradient Descent, we take the average of the gradients of all the training examples and then use that mean gradient to update our parameters. So that’s just one 
+     step of gradient descent in one epoch. 
+    Stochastic gradient descent method can be considered as the opposite of the batch gradient.In this case, however, we update the weights after each data instance has been
+     processed by the neural network. This method is also often called as online learning.
+    The mini-batch gradient descent, we must divide our training set into batches of size n. The gradient descent step is performed after each mini-batch of samples has been
+     processed.
+14. Computational Efficiency: In terms of computational efficiency, this technique lies between the two previously introduced techniques.
+    Stable Convergence: It is more stable converge towards the global minimum since we calculate an average gradient over n samples that results in less noise.
+    Faster Learning: As we perform weight updates more often than with stochastic gradient descent, we achieve a much faster learning process.
+15. Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related  
+    problem. For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks.
